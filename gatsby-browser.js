@@ -1,7 +1,4 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/
- */
+import CustomLayout from "./wrapPageElement"
 
+export const wrapPageElement = CustomLayout
 // You can delete this file if you're not using it

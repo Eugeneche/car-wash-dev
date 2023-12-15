@@ -1,0 +1,31 @@
+.section {
+    background: #222121;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: max-content;
+}
+
+.about-title {
+    color: #ff3100;
+    margin: 25px 0;
+}
+
+.about-info {
+    display: grid;
+    grid-template-columns: 53% 45%;
+    gap: 2%;
+}
+
+.service-description {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 30px auto;
+    color: #e7e7e7;
+    display: flex;flex-direction: column;
+    justify-content: space-between;
+}
