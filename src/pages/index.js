@@ -1,8 +1,8 @@
 import * as React from "react"
-//import { Layout } from "../components/layout"
 import Seo from "../components/seo"
 import About from "../components/About/About"
 import Map from "../components/Map/Map"
+import Header from "../components/Header/Header"
 
 
 
@@ -10,8 +10,8 @@ const IndexPage = () => {
 
   return (
     <>
-      <h1>Template</h1>
-
+      
+      <Header />
       <About />
       <Map />
     </>

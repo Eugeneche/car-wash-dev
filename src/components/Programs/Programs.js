@@ -1,11 +1,11 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import useTranslations from "../useTranslations"
-import * as styles from "./_About.module.scss"
+import * as styles from "./_Programs.module.scss"
 //import { Link } from "gatsby"
 //import LocalizedLink from "../localizedLink"
 
-const About = () => {
+const Programs = () => {
 
     const { 
         opys_zagolovok,
@@ -14,9 +14,9 @@ const About = () => {
      } = useTranslations()
 
     return (
-        <section id="o-nas" className={styles.section}>
+        <section id="programy-myti" className={styles.section}>
             <div className={styles.container}>
-                <h1 className={styles.aboutTitle}>{opys_zagolovok}</h1>
+                <h2 className={styles.aboutTitle}>{opys_zagolovok}</h2>
 
                 <div className={styles.aboutInfo}>
                     <div className={styles.serviceDescription}>
@@ -35,4 +35,4 @@ const About = () => {
 
 }
 
-export default About
+export default Programs

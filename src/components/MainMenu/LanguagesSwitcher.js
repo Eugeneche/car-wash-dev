@@ -13,12 +13,8 @@ import { LocaleContext } from "../layout"
 
 const LanguagesSwitcher = () => {
 
-  //const { headerHero } = useTranslations()
-
   const [path, setPath] = useState('')
-
   const locale = React.useContext(LocaleContext)
-
 
   useEffect(() => {
     if (window.location.pathname.match(`/${locale.locale}/`)) {
@@ -30,16 +26,16 @@ const LanguagesSwitcher = () => {
 
   
   return (
-    <div className={style.flags}>
+    <div className={style.langs}>
 {/*       <Link to={`${path}`} hrefLang="en">
         <img className={style.flag} src={eng} alt="great britain flag"></img>
       </Link> */}
       <Link to={`${path}`} hrefLang="cs">
-        <span>CZ</span>
+        <span className={style.lang} style={locale.locale === "cs" ? {fontWeight: "400", color: "#707070"} : {fontWeight: "600", color: "#e6e6e6"}}>CZ</span>
         {/* <img className={style.flag} src={cze} alt="czech flag"></img> */}
       </Link>
       <Link to={`/uk${path}`} hrefLang="uk">
-        <span>UA</span>
+        <span className={style.lang} style={locale.locale === "uk" ? {fontWeight: "400", color: "#707070"} : {fontWeight: "600", color: "#e6e6e6"}}>UA</span>
         {/* <img className={style.flag} src={ukr} alt="ukrainian flag"></img> */}
       </Link>
 {/*       {` `}/{` `}
