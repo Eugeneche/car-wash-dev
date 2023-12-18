@@ -23,7 +23,7 @@ const Header = () => {
         <section className={styles.section}>
             <Carousel
                 autoplay={true}
-                autoplayInterval={10000000}
+                autoplayInterval={4000}
                 wrapAround={true}
                 pauseOnHover={false}
                 defaultControlsConfig={{

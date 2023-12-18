@@ -3,6 +3,7 @@ import Seo from "../components/seo"
 import About from "../components/About/About"
 import Map from "../components/Map/Map"
 import Header from "../components/Header/Header"
+import Programs from "../components/Programs/Programs"
 
 
 
@@ -13,6 +14,7 @@ const IndexPage = () => {
       
       <Header />
       <About />
+      <Programs />
       <Map />
     </>
   )
