@@ -33,8 +33,8 @@
   "program_1_10": "",
   "program_1_11": "",
   "program_1_12": "",
-  "program_1_price-osobak": "649",
-  "program_1_price-suv": "749",
+  "program_1_price_osobak": "649",
+  "program_1_price_suv": "749",
 
   "program_2": "Програма 2",
   "program_2_nazva": "Інтер'єр",
@@ -50,8 +50,8 @@
   "program_2_10": "",
   "program_2_11": "",
   "program_2_12": "",
-  "program_2_price-osobak": "849",
-  "program_2_price-suv": "949",
+  "program_2_price_osobak": "849",
+  "program_2_price_suv": "949",
 
   "program_3": "Програма 3",
   "program_3_nazva": "Екстер'єр + Інтер'єр",
@@ -67,8 +67,8 @@
   "program_3_10": "",
   "program_3_11": "",
   "program_3_12": "",
-  "program_3_price-osobak": "1 349",
-  "program_3_price-suv": "1 549",
+  "program_3_price_osobak": "1 349",
+  "program_3_price_suv": "1 549",
 
   "program_4": "Програма 4",
   "program_4_nazva": "Зовнішнє миття та внутрішнє вологе прибирання",
@@ -84,8 +84,8 @@
   "program_4_10": "",
   "program_4_11": "",
   "program_4_12": "",
-  "program_4_price-osobak": "2 649",
-  "program_4_price-suv": "2 849",
+  "program_4_price_osobak": "2 649",
+  "program_4_price_suv": "2 849",
 
   "program_5": "Програма 5",
   "program_5_nazva": "Нанесення воску I",
@@ -101,8 +101,8 @@
   "program_5_10": "",
   "program_5_11": "",
   "program_5_12": "",
-  "program_5_price-osobak": "1 949",
-  "program_5_price-suv": "2 249",
+  "program_5_price_osobak": "1 949",
+  "program_5_price_suv": "2 249",
 
   "program_6": "Програма 6",
   "program_6_nazva": "Нанесення воску II",
@@ -118,11 +118,15 @@
   "program_6_10": "",
   "program_6_11": "",
   "program_6_12": "",
-  "program_6_price-osobak": "2 549",
-  "program_6_price-suv": "2 849",
+  "program_6_price_osobak": "2 549",
+  "program_6_price_suv": "2 849",
 
   "osobni": "Легкове авто",
   "suv": "SUV",
+
+  "loyalty_opys": "У Alfa Wash, ручній автомийці в Празі, ми цінуємо вашу вірність! Тому пропонуємо кожне шосте миття безкоштовно. Регулярні клієнти отримують приємні сюрпризи, такі як бонуси, знижки та інше. Дякуємо за вашу відданість!",
+  "loyalty_umova": "кожне 6 миття",
+  "loyalty_bonus": "безкоштовно",
 
   "seo_title": "Quality women's jackets",
   "seo_description": "Quality women's jackets",

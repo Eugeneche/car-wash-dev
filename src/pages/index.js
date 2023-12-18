@@ -4,6 +4,7 @@ import About from "../components/About/About"
 import Map from "../components/Map/Map"
 import Header from "../components/Header/Header"
 import Programs from "../components/Programs/Programs"
+import Loyality from "../components/Loyality/Loyality"
 
 
 
@@ -15,6 +16,7 @@ const IndexPage = () => {
       <Header />
       <About />
       <Programs />
+      <Loyality />
       <Map />
     </>
   )

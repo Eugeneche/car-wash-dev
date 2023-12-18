@@ -33,7 +33,7 @@ query useTranslations {
         home
         o_nas
         programs
-        loyality
+        loyalty
         gifts
         contacts  
         slider_zagolovok_1
@@ -145,6 +145,9 @@ query useTranslations {
         program_6_price_suv
         osobni
         suv
+        loyalty_opys
+        loyalty_umova
+        loyalty_bonus
       }
       name
     }

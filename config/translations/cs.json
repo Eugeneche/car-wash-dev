@@ -2,7 +2,7 @@
   "home": "Domů",
   "o_nas": "O nás",
   "programs": "Programy mytí",
-  "loyality": "Bonusové programy",
+  "loyalty": "Bonusové programy",
   "gifts": "Dárkové poukazy",
   "contacts": "Kontakty",
 
@@ -124,18 +124,14 @@
   "osobni": "Osobní vůz",
   "suv": "SUV",
 
+  "loyalty_opys": "V Alfa Wash, ruční myčce v Praze, vás odměňujeme! Proto nabízíme každé šesté mytí zdarma. Pravidelní návštěvníci mohou očekávat příjemná překvapení jako bonusy, slevy a mnoho dalšího. Děkujeme vám za vaši věrnost!",
+  "loyalty_umova": "každé 6. mytí",
+  "loyalty_bonus": "je zdarma",
+
   "seo_title": "Kvalitní dámské bundy",
   "seo_description": "Kvalitní dámské bundy",
 
   "gallery": "Galerie",
-
-  "choose_color": "Vyberte barvu",
-  "choose_size": "Vyberte velikost",
-
-  "delivery_title": "Doručení",
-  "choose_point_text": "Vyberte si nejvhodnější místo vyzvednutí v rámci služby ",
-  "choose_point_btn": "Vybrat výdejní místo",
-  "change_point_btn": "Změnit místo vyzvednutí",
 
   "your_name": "vaše jméno",
   "your_message": "zde napište svou zprávu",

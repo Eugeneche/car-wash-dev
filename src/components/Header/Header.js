@@ -22,6 +22,7 @@ const Header = () => {
     return (
         <section className={styles.section}>
             <Carousel
+                carouselId="header"
                 autoplay={true}
                 autoplayInterval={4000}
                 wrapAround={true}
@@ -50,7 +51,7 @@ const Header = () => {
                     <StaticImage src="../../images/slider_2.jpg" alt="car exterior and interior cleaning" />
                     <div className={styles.container}>
                         <h2 className={styles.sliderTitleLeft}>{slider_zagolovok_2}</h2>
-                        <h3 className={styles.sliderSubtitleLeft}>{slider_pidzagolovok_1}</h3>
+                        <h3 className={styles.sliderSubtitleLeft}>{slider_pidzagolovok_2}</h3>
                     </div>
                 </div>
                 <div className={styles.sliderWrapper}>
