@@ -13,18 +13,17 @@
         margin: 0 auto;
         padding: 0 20px;
     }
-
-    .container div:nth-child(1) {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-    }
 }
 
 .logo {
-    height: 60px;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    img {
+        height: 60px;
+    }
 }
 
 .contact {
@@ -33,6 +32,18 @@
 
     img {
         height: 20px;
+        margin-right: 5px;
+    }
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        position: relative;
+        top: 3px;
+        width: 20px;
         margin-right: 5px;
     }
 
@@ -44,4 +55,46 @@
 .insta {
     height: 30px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .footer {
+    
+        .container {
+            grid-template-columns: auto auto auto auto;
+            height: 100px;
+        }
+    }
+
+    .logo {
+        flex-direction: column;
+
+        img {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 852px) {
+
+    .footer {
+    
+        .container {
+            grid-template-columns: auto auto;
+            /* grid-template-rows: auto auto; */
+            height: 160px;
+        }
+    }
+}
+
+@media screen and (max-width: 568px) {
+
+    .footer {
+    
+        .container {
+            grid-template-columns: auto;
+            height: 250px;
+        }
+    }
 }

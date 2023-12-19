@@ -1,7 +1,7 @@
 import React from "react"
 import LocalizedLink from "../localizedLink"
 
-const linkStyles = {
+/* const linkStyles = {
     color: "#0007f3",
     textDecoration: "none"
 }
@@ -9,10 +9,10 @@ const linkStyles = {
 const activeStyles = {
     color: "#a09efd",
     textDecoration: "underline"
-}
+} */
 
 const NavLink = ({ props, children, to }) => (
-    <LocalizedLink to={to} style={linkStyles} activeStyle={activeStyles}>
+    <LocalizedLink to={to} /* style={linkStyles} activeStyle={activeStyles} */>
       {children}
     </LocalizedLink>
 )

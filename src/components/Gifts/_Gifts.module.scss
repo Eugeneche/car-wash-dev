@@ -1,0 +1,32 @@
+.section {
+    background: #222121;
+    padding: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: max-content;
+}
+
+.gifts-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 10px; */
+    margin: 70px 0;
+}
+
+.gifts-title {
+    color: #ff3100;
+}
+
+@media screen and (max-width: 430px) {
+
+    .section {
+        padding: 4vw;
+    }
+    
+    .gallery-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+}

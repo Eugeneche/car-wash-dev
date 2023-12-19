@@ -5,6 +5,8 @@ import Map from "../components/Map/Map"
 import Header from "../components/Header/Header"
 import Programs from "../components/Programs/Programs"
 import Loyality from "../components/Loyality/Loyality"
+import Gallery from "../components/Gallery/Gallery"
+import Gifts from "../components/Gifts/Gifts"
 
 
 
@@ -17,6 +19,8 @@ const IndexPage = () => {
       <About />
       <Programs />
       <Loyality />
+      <Gifts />
+      <Gallery />
       <Map />
     </>
   )

@@ -13,6 +13,7 @@
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
+        padding: 0 25px;
         flex-wrap: wrap;
     }
 
@@ -64,8 +65,143 @@
     }
 }
 
+/* MOBILE */
 
-@media screen and (max-width: 430px) {
+.mobile-menu {
+    display: none;
+    z-index: 10;
+    
+    a {
+        /* height: 50px; */
+        align-self: center;
+    }
+
+    .logo-mobile {
+        height: 50px;
+        margin: 0;
+        padding-left: 3vw;
+    }
+
+    .hamburger {
+        height: 50px;
+        margin: 0;
+        padding-right: 3vw;
+    }
+}
+
+.mobile-menu-shadow {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #2b2b2b67;
+    z-index: 20;
+    transition: all ease 1s;
+}
+
+.mobile-menu-background {
+    position: fixed;
+    background: #0f0f0f;
+    top: 5%;
+    text-align: center;
+    overflow-y: scroll;
+    z-index: 20;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    button {
+        width: 0;
+        height: 0;
+    }
+    .close {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        height: 35px;
+        margin: 0;
+    }
+
+    .logo {
+        margin: 0 auto;
+        width: min-content;
+
+        img {
+            /* margin-bottom: 20px; */
+            margin: 0;
+            height: 50px;
+        }           
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .item {      
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        margin: 15px auto;
+
+        a {
+            color: #f0f0f0;
+        }
+    }
+
+    .sub-item {
+        color: #898787;
+        text-transform: uppercase;
+        font-size: 16px;
+        display: block;
+        width: max-content;
+        margin: auto;
+        margin: 0 auto 7px;
+    }
+
+    .socials{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            margin-bottom: 5px;
+            background: #ffa808;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .main-menu {
+        display: none;
+    }
+
+    /*  */
+
+    .mobile-menu {
+        position: fixed;
+        display: flex;
+        width: 100%;
+        height: 63px;
+        justify-content: space-between;
+        background: #0c0c0c;
+    }
+
+    .hamburger img {
+        height: 50px;
+    }
+}
+
+
+/* @media screen and (max-width: 430px) {
 
     .main-menu {
     
@@ -89,4 +225,4 @@
             margin: 0 5px;
         }
     }
-}
+} */

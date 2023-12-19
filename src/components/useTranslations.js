@@ -148,6 +148,7 @@ query useTranslations {
         loyalty_opys
         loyalty_umova
         loyalty_bonus
+        gallery
       }
       name
     }

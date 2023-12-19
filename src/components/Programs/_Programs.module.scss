@@ -12,15 +12,15 @@
 .programs-title {
     color: #ff3100;
     margin: 25px 0;
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
     font-weight: 400;
 }
 
 .programs {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr;
-    gap: 2%;
+    grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
+    /* grid-template-rows: 1fr 1fr; */
+    gap: 10px;
 }
 
 .program-item {
@@ -65,5 +65,16 @@
         font-size: 1rem;
         font-weight: 400;
         color: #c7c7c7;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .section {
+        padding: 5vw;
+    }
+
+    .programs {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
