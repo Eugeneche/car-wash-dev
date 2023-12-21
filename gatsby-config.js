@@ -12,7 +12,7 @@ module.exports = {
     title: `Ruční mytí aut v Praze Alfa Wash. Kompletní mytí zvenku a čištění uvnitř vozu`,
     description: `Alfa Wash - ruční mytí aut v Praze. Čištění interiéru: renovace čalounění, plastů, chromu. Mytí karoserie nejlepší autokosmetikou. Zdarma Náhradní vůz a služba Pick up`,
     author: `@websolutionsforyou`,
-    siteUrl: ``,
+    siteUrl: `https://alfa-car-wash.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-image`,

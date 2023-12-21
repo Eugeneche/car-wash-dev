@@ -23,6 +23,7 @@
         align-items: center;  
 
         a {
+            font-size: clamp(0.8rem, 1.3vw, 1rem);
             text-decoration: none;
             color: #e6e6e6;
             padding: 0 10px;
