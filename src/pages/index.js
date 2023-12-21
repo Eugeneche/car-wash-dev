@@ -7,6 +7,7 @@ import Programs from "../components/Programs/Programs"
 import Loyality from "../components/Loyality/Loyality"
 import Gallery from "../components/Gallery/Gallery"
 import Gifts from "../components/Gifts/Gifts"
+import Additions from "../components/Additions/Additions"
 
 
 
@@ -20,6 +21,7 @@ const IndexPage = () => {
       <Programs />
       <Loyality />
       <Gifts />
+      <Additions />
       <Gallery />
       <Map />
     </>

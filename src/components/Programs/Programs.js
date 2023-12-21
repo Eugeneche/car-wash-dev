@@ -9,6 +9,9 @@ const Programs = () => {
 
     const { 
         programy_myti,
+        nabidky,
+        nabidka_1,
+        nabidka_2,
         program_1,
         program_1_nazva,
         program_1_1,
@@ -115,11 +118,17 @@ const Programs = () => {
     const prg4 = [program_4_1, program_4_2, program_4_3, program_4_4, program_4_5, program_4_6, program_4_7, program_4_8, program_4_9, program_4_10, program_4_11, program_4_12].filter(el => el)
     const prg5 = [program_5_1, program_5_2, program_5_3, program_5_4, program_5_5, program_5_6, program_5_7, program_5_8, program_5_9, program_5_10, program_5_11, program_5_12,].filter(el => el)
     const prg6 = [program_6_1, program_6_2, program_6_3, program_6_4, program_6_5, program_6_6, program_6_7, program_6_8, program_6_9, program_6_10, program_6_11, program_6_12,].filter(el => el)
-    console.log(prg1)
+
     return (
         <section id="programy-myti" className={styles.section}>
             <div className={styles.container}>
                 <h2 className={styles.programsTitle}>{programy_myti}</h2>
+
+                <div className={styles.proposals}>
+                    <h3 className={styles.proposalsTitle}>{nabidky}</h3>
+                    <p className={styles.proposalItem}><span className={styles.proposalMarker}>&#8226;</span>{nabidka_1}</p>
+                    <p className={styles.proposalItem}><span className={styles.proposalMarker}>&#8226;</span>{nabidka_2}</p>
+                </div>
 
                 <div className={styles.programs}>
                     <div className={styles.programItem}>

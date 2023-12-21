@@ -45,8 +45,12 @@ query useTranslations {
         opys_zagolovok
         opys_abzac_1
         opys_abzac_2
+        opys_abzac_3
         o_nas
         programy_myti
+        nabidky
+        nabidka_1
+        nabidka_2
         program_1
         program_1_nazva
         program_1_1
@@ -149,6 +153,40 @@ query useTranslations {
         loyalty_umova
         loyalty_bonus
         gallery
+        additions
+        additions_1
+        additions_1_price
+        additions_2
+        additions_2_price
+        additions_3
+        additions_3_price
+        additions_4
+        additions_4_price
+        additions_5
+        additions_5_price
+        additions_6
+        additions_6_price
+        additions_7
+        additions_7_price
+        additions_8
+        additions_8_price
+        additions_9
+        additions_9_price
+        additions_10
+        additions_10_price
+        additions_11
+        additions_11_price
+        additions_12
+        additions_12_price
+        additions_13
+        additions_13_price
+        additions_14
+        additions_14_price
+        additions_suv
+        additions_suv_price
+        additions_velke
+        additions_velke_price
+        additions_note
       }
       name
     }

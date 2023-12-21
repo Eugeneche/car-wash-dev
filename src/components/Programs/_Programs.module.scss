@@ -16,6 +16,32 @@
     font-weight: 400;
 }
 
+.proposals {
+    width: clamp(90%, 90vw, 100%);
+    margin: 0 auto 20px;
+    font-weight: 300;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    color: #d3d3d3;
+}
+
+.proposals-title {
+    font-size: clamp(1.0rem, 4vw, 1.5rem);
+    color: #ffb300;
+    margin-bottom: 6px;
+    font-weight: 400;
+}
+
+.proposal-item {
+    color: #fffb73;
+    margin-bottom: 5px;
+    line-height: normal;
+}
+
+.proposal-marker {
+    color: #ff4500;
+    margin-right: 5px;
+}
+
 .programs {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
@@ -52,7 +78,7 @@
     display: grid;
     grid-template-columns: 10px auto;
     font-weight: 300;
-    color: white;
+    color: #f5f5f5;
     padding-bottom: 5px;
     line-height: 1.2rem;
 }

@@ -10,7 +10,8 @@ const About = () => {
     const { 
         opys_zagolovok,
         opys_abzac_1,
-        opys_abzac_2
+        opys_abzac_2,
+        opys_abzac_3
      } = useTranslations()
 
     return (
@@ -25,6 +26,9 @@ const About = () => {
                         </p>
                         <p>
                             {opys_abzac_2}
+                        </p>
+                        <p>
+                            {opys_abzac_3}
                         </p>
                     </div>
                     <StaticImage src="../../images/about.jpg" alt="car washing" />

@@ -11,12 +11,13 @@ import close from "../../images/close.svg"
 const MainMenu = ({locale}) => {
 
   const [ isShow, setIsShow ] = useState(false)
-  console.log(isShow)
+
   const { 
           o_nas,
           programs,
           loyalty,
           gifts,
+          additions,
           gallery,
           contacts
         } = useTranslations()
@@ -50,6 +51,7 @@ const MainMenu = ({locale}) => {
               <AnchorLink to={locale === `cs` ? `/#programy-myti` : `/${locale}/#programy-myti`}>{programs}</AnchorLink>
               <AnchorLink to={locale === `cs` ? `/#bonusove-programy` : `/${locale}/#bonusove-programy`}>{loyalty}</AnchorLink>
               <AnchorLink to={locale === `cs` ? `/#darkove-poukazy` : `/${locale}/#darkove-poukazy`}>{gifts}</AnchorLink>
+              <AnchorLink to={locale === `cs` ? `/#doplnkove-sluzby` : `/${locale}/#doplnkove-sluzby`}>{additions}</AnchorLink>
               <AnchorLink to={locale === `cs` ? `/#gallery` : `/${locale}/#gallery`}>{gallery}</AnchorLink>
               <AnchorLink to={locale === `cs` ? `/#kontakty` : `/${locale}/#kontakty`}>{contacts}</AnchorLink>
               {/* <NavLink to="/contacts">{contacts}</NavLink> */}
@@ -72,7 +74,7 @@ const MainMenu = ({locale}) => {
         <button onClick={() => setIsShow(false)}>
           <img className={style.close} src={close} alt="close menu icon"></img>
         </button>
-        <NavLink onClick={() => setIsShow(false)} className={style.logo} to="/"><img className={style.logo} src={logo} alt="Alfa Wash logo"></img></NavLink>
+        <NavLink className={style.logo} to="/"><img onClick={() => setIsShow(false)} className={style.logo} src={logo} alt="Alfa Wash logo"></img></NavLink>
 {/*         <Link onClick={() => setIsShow(false)} className={style.logo} to="/"><img src={logo} alt="logo"></img></Link> */}
         <div className={style.items}>
 
@@ -88,6 +90,9 @@ const MainMenu = ({locale}) => {
           </button>
           <button className={style.item} onClick={() => setIsShow(false)}>
             <AnchorLink to={locale === `cs` ? `/#darkove-poukazy` : `/${locale}/#darkove-poukazy`}>{gifts}</AnchorLink>
+          </button>
+          <button className={style.item} onClick={() => setIsShow(false)}>
+          <AnchorLink to={locale === `cs` ? `/#doplnkove-sluzby` : `/${locale}/#doplnkove-sluzby`}>{additions}</AnchorLink>
           </button>
           <button className={style.item} onClick={() => setIsShow(false)}>
             <AnchorLink to={locale === `cs` ? `/#gallery` : `/${locale}/#gallery`}>{gallery}</AnchorLink>
