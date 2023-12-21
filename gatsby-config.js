@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Ruční mytí aut v Praze Alfa Wash. Kompletní mytí zvenku a čištění uvnitř vozu`,
+    description: `Alfa Wash - ruční mytí aut v Praze. Čištění interiéru: renovace čalounění, plastů, chromu. Mytí karoserie nejlepší autokosmetikou. Zdarma Náhradní vůz a služba Pick up`,
+    author: `@websolutionsforyou`,
+    siteUrl: ``,
   },
   plugins: [
     `gatsby-plugin-image`,
