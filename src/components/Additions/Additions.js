@@ -37,6 +37,8 @@ const Additions = () => {
         additions_13_price,
         additions_14,
         additions_14_price,
+        additions_15,
+        additions_15_price,
         additions_suv,
         additions_suv_price,
         additions_velke,
@@ -44,8 +46,8 @@ const Additions = () => {
         additions_note,
     } = useTranslations()
 
-    const currentAdditions = [additions_1, additions_2, additions_3, additions_4, additions_5, additions_6, additions_7, additions_8, additions_9, additions_10, additions_11, additions_12, additions_13, additions_14].filter(el => el)
-    const currentAdditionsPrices = [additions_1_price, additions_2_price, additions_3_price, additions_4_price, additions_5_price, additions_6_price, additions_7_price, additions_8_price, additions_9_price, additions_10_price, additions_11_price, additions_12_price, additions_13_price, additions_14_price].filter(el => el)
+    const currentAdditions = [additions_1, additions_2, additions_3, additions_4, additions_5, additions_6, additions_7, additions_8, additions_9, additions_10, additions_11, additions_12, additions_13, additions_14, additions_15].filter(el => el)
+    const currentAdditionsPrices = [additions_1_price, additions_2_price, additions_3_price, additions_4_price, additions_5_price, additions_6_price, additions_7_price, additions_8_price, additions_9_price, additions_10_price, additions_11_price, additions_12_price, additions_13_price, additions_14_price, additions_15_price].filter(el => el)
 
     return (
         <section id="doplnkove-sluzby" className={styles.section}>
@@ -58,7 +60,7 @@ const Additions = () => {
                             <li className={styles.additionsItem}>
                                 <span className={styles.additionsNumber}>{i + 1}</span>
                                 <span className={styles.additionsName}>{service}</span>
-                                <span className={styles.additionsPrice}>{`${currentAdditionsPrices[i]},-`}</span>
+                                <span className={styles.additionsPrice}>{currentAdditionsPrices[i] ? `${currentAdditionsPrices[i]},-` : ``}</span>
                             </li>
                         )
                     })}

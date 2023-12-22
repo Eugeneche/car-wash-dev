@@ -182,6 +182,8 @@ query useTranslations {
         additions_13_price
         additions_14
         additions_14_price
+        additions_15
+        additions_15_price
         additions_suv
         additions_suv_price
         additions_velke
