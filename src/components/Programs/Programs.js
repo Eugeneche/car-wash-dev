@@ -162,6 +162,7 @@ const Programs = () => {
                         <h3 className={styles.price}><span className={styles.carBody}>{`${suv}: `}</span>{`${program_2_price_suv},- Kč`}</h3>
                     </div>
                     <div className={styles.programItem}>
+                        <div className={styles.programLabel}><span className={styles.programLabelText}>5 + 1</span></div>
                         <h4 className={styles.programNum}>{program_3}</h4>
                         <h3 className={styles.programName}>{program_3_nazva}</h3>
                         <ul className={styles.servicesList}>
@@ -177,6 +178,7 @@ const Programs = () => {
                         <h3 className={styles.price}><span className={styles.carBody}>{`${suv}: `}</span>{`${program_3_price_suv},- Kč`}</h3>
                     </div>
                     <div className={styles.programItem}>
+                        <div className={styles.programLabel}><span className={styles.programLabelText}>5 + 1</span></div>
                         <h4 className={styles.programNum}>{program_4}</h4>
                         <h3 className={styles.programName}>{program_4_nazva}</h3>
                         <ul className={styles.servicesList}>
@@ -192,6 +194,7 @@ const Programs = () => {
                         <h3 className={styles.price}><span className={styles.carBody}>{`${suv}: `}</span>{`${program_4_price_suv},- Kč`}</h3>
                     </div>
                     <div className={styles.programItem}>
+                        <div className={styles.programLabel}><span className={styles.programLabelText}>5 + 1</span></div>
                         <h4 className={styles.programNum}>{program_5}</h4>
                         <h3 className={styles.programName}>{program_5_nazva}</h3>
                         <ul className={styles.servicesList}>
@@ -207,6 +210,7 @@ const Programs = () => {
                         <h3 className={styles.price}><span className={styles.carBody}>{`${suv}: `}</span>{`${program_5_price_suv},- Kč`}</h3>
                     </div>
                     <div className={styles.programItem}>
+                        <div className={styles.programLabel}><span className={styles.programLabelText}>5 + 1</span></div>
                         <h4 className={styles.programNum}>{program_6}</h4>
                         <h3 className={styles.programName}>{program_6_nazva}</h3>
                         <ul className={styles.servicesList}>

@@ -17,7 +17,9 @@ const About = () => {
     return (
         <section id="o-nas" className={styles.section}>
             <div className={styles.container}>
-                <h1 className={styles.aboutTitle}>{opys_zagolovok}</h1>
+                <h1 className={styles.aboutTitleOne}>{opys_zagolovok}</h1>
+                <h1 className={styles.aboutTitleTwo}>{opys_zagolovok}</h1>
+                <h1 className={styles.aboutTitleThree}>{opys_zagolovok}</h1>
 
                 <div className={styles.aboutInfo}>
                     <div className={styles.serviceDescription}>

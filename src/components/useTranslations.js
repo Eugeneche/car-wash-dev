@@ -149,6 +149,7 @@ query useTranslations {
         program_6_price_suv
         osobni
         suv
+        loyalty_note
         loyalty_opys
         loyalty_umova
         loyalty_bonus

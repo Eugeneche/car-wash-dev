@@ -12,8 +12,16 @@
 .loyality-title {
     color: #fff700;
     margin: 25px 0;
-    /* font-size: 1.8rem; */
     font-weight: 400;
+}
+
+.loyality-note {
+    position: relative;
+    bottom: 10px;
+    color: #dfd700;
+    text-align: center;
+    font-size: clamp(0.7rem, 1vw, 0.9rem);
+
 }
 
 .loyality-info {

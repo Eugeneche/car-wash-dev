@@ -11,6 +11,7 @@ const Loyality = () => {
 
     const { 
         loyalty,
+        loyalty_note,
         loyalty_opys,
         loyalty_umova,
         loyalty_bonus
@@ -20,6 +21,7 @@ const Loyality = () => {
         <section id="bonusove-programy" className={styles.section}>
             <div className={styles.container}>
                 <h2 className={styles.loyalityTitle}>{loyalty}</h2>
+                <p className={styles.loyalityNote}>{loyalty_note}</p>
  
                 <div className={styles.loyalityGraphics}>
                     <img className={styles.regularWashing} src={wash_icon} alt="washing car icon"></img>

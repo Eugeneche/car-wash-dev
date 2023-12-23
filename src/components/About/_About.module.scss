@@ -12,7 +12,28 @@
 .about-title {
     color: #ff3100;
     margin: 25px 0;
-    /* font-size: clamp(1.5rem, 5vw, 1.8rem); */
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-title-one {
+    font-family: 'Noto Sans', sans-serif;
+    color: #ff3100;
+    margin: 25px 0;
+    font-weight: 400;
+    line-height: normal;
+}
+.about-title-two {
+    font-family: 'Kanit', sans-serif;
+    color: #ff3100;
+    margin: 25px 0;
+    font-weight: 400;
+    line-height: normal;
+}
+.about-title-three {
+    font-family: 'Varela Round', sans-serif;
+    color: #ff3100;
+    margin: 25px 0;
     font-weight: 400;
     line-height: normal;
 }
