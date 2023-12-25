@@ -24,6 +24,16 @@
     margin-bottom: clamp(8px, 2vw, 13px);
     font-size: clamp(0.9rem, 3vw, 2.5rem);
     text-align: left;
+    /* -webkit-text-stroke-width: 1px; 
+            -webkit-text-stroke-color: black; */
+/*             text-shadow: -1px 1px 0 #ff5e00, 
+                          1px 1px 0 #ff5e00, 
+                         1px -1px 0 #ff5e00, 
+                        -1px -1px 0 #ff5e00; */ 
+                        text-shadow: -1px 1px 0 #000, 
+                          1px 1px 0 #000, 
+                         1px -1px 0 #000, 
+                        -1px -1px 0 #000; 
 }
 
 .slider-subtitle-left, .slider-subtitle-right {
@@ -37,10 +47,28 @@
 
 }
 
+.staticImage {
+    min-height: 200px;
+    max-height: 700px;
+}
+
+@media screen and (min-width: 1920px) {
+
+    .staticImage {
+        max-height: 1000px;
+        display: block;
+    }
+}
+
+
 @media screen and (max-width: 1024px) {
 
     .container {
         padding: 2.5%;
         background: #0000009f;
+    }
+
+    .slider-title-left, .slider-title-right {
+        text-shadow: none;
     }
 }

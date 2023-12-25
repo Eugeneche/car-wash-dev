@@ -41,21 +41,21 @@ const Header = () => {
                   )}
             >
                 <div className={styles.sliderWrapper}>
-                    <StaticImage style={{minHeight: "200px", maxHeight: "700px"}} src="../../images/slider_1.jpg" alt="car body waxing" />
+                    <StaticImage className={styles.staticImage} src="../../images/slider_1.jpg" alt="car body waxing" />
                     <div className={styles.container}>
                         <h2 className={styles.sliderTitleLeft}>{slider_zagolovok_1}</h2>
                         <h3 className={styles.sliderSubtitleLeft}>{slider_pidzagolovok_1}</h3>
                     </div>
                 </div>
                 <div className={styles.sliderWrapper}>
-                    <StaticImage style={{minHeight: "200px", maxHeight: "700px"}} src="../../images/slider_2.jpg" alt="car exterior and interior cleaning" />
+                    <StaticImage className={styles.staticImage} src="../../images/slider_2.jpg" alt="car exterior and interior cleaning" />
                     <div className={styles.container}>
                         <h2 className={styles.sliderTitleLeft}>{slider_zagolovok_2}</h2>
                         <h3 className={styles.sliderSubtitleLeft}>{slider_pidzagolovok_2}</h3>
                     </div>
                 </div>
                 <div className={styles.sliderWrapper}>
-                    <StaticImage style={{minHeight: "200px", maxHeight: "700px"}} src="../../images/slider_3.jpg" alt="car interior cleaning" />
+                    <StaticImage className={styles.staticImage} src="../../images/slider_3.jpg" alt="car interior cleaning" />
                     <div className={styles.container}>
                         <h2 className={styles.sliderTitleRight}>{slider_zagolovok_3}</h2>
                         <h3 className={styles.sliderSubtitleRight}>{slider_pidzagolovok_3}</h3>
