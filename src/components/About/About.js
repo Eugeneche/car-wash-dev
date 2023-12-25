@@ -17,8 +17,8 @@ const About = () => {
     return (
         <section id="o-nas" className={styles.section}>
             <div className={styles.container}>
-                <h1 className={styles.aboutTitleFirst}>{opys_zagolovok}</h1>
-                <h1 className={styles.aboutTitleSecond}>{opys_zagolovok}</h1>
+                {/* <h1 className={styles.aboutTitleFirst}>{opys_zagolovok}</h1> */}
+                {/* <h1 className={styles.aboutTitleSecond}>{opys_zagolovok}</h1> */}
                 <h1 className={styles.aboutTitleThird}>{opys_zagolovok}</h1>
 
                 <div className={styles.aboutInfo}>
@@ -29,9 +29,9 @@ const About = () => {
                         <p>
                             {opys_abzac_2}
                         </p>
-                        <p>
+                        {/* <p>
                             {opys_abzac_3}
-                        </p>
+                        </p> */}
                     </div>
                     <StaticImage src="../../images/about.jpg" alt="car washing" />
                 </div>     

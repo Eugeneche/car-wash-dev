@@ -20,9 +20,10 @@ const IndexPage = () => {
     <>
       
       <Header />
+      <Loyality />
       <About />
       <Programs />
-      <Loyality />
+      
       <Gifts />
       <Additions />
       <Gallery />
