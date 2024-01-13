@@ -8,22 +8,15 @@ import Loyality from "../components/Loyality/Loyality"
 import Gallery from "../components/Gallery/Gallery"
 import Gifts from "../components/Gifts/Gifts"
 import Additions from "../components/Additions/Additions"
-import { LocaleContext } from "../components/layout"
-
-
 
 const IndexPage = () => {
 
-  
-
   return (
-    <>
-      
+    <>   
       <Header />
       <Loyality />
       <About />
-      <Programs />
-      
+      <Programs />     
       <Gifts />
       <Additions />
       <Gallery />
