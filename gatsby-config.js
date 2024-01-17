@@ -1,18 +1,9 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
- */
-
-/**
- * @type {import('gatsby').GatsbyConfig}
- */
 module.exports = {
   siteMetadata: {
     title: `Ruční mytí aut v Praze Alfa Wash. Kompletní mytí zvenku a čištění uvnitř vozu`,
     description: `Alfa Wash - ruční mytí aut v Praze. Čištění interiéru: renovace čalounění, plastů, chromu. Mytí karoserie nejlepší autokosmetikou. Zdarma Náhradní vůz a služba Pick up`,
     author: `@websolutionsforyou`,
-    siteUrl: `https://alfa-car-wash.netlify.app/`,
+    siteUrl: `https://alfawashrucnimyti.cz/`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -50,11 +41,8 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/gatsby-icon.png`,
       },
     },
   ],
